@@ -1,0 +1,591 @@
+/* FONT-FAMILY */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* h4 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+* h3 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+* h5 {
+    font-weight: 700;
+
+}
+
+* .sub-text {
+    font-weight: 550;
+    font-size: 1rem;
+}
+
+
+
+* p {
+    font-weight: 400;
+}
+/* NAVBAR */
+.hide-scrollbar
+{
+    overflow: auto;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+      background-color: #F6F7FB;
+  }
+  
+.nav-item {
+    padding: 1.5rem;
+    font-weight: 550;
+}
+
+.navbar-collapse {
+    transition: 0.5s ease;
+}
+
+.navbar .navbar-nav a {
+    font-size: 18px;
+    color: black;
+}
+
+.navbar {
+    transition: 1s ease-in-out;
+}
+
+.navbar img {
+    width: 8%;
+}
+
+.navbar button {
+    border-color: #3742fa;
+    color: #3742fa;
+}
+
+.navbar .sign-btn:hover {
+    background-color: #3742fa;
+    color: white;
+}
+
+.navbar-nav {
+    transition: 2s ease;
+}
+
+html {  
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
+
+
+/* MAIN */
+.main p {
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.main button {
+    border-color: #3742fa;
+    color: #3742fa;
+}
+
+.main button:hover {
+    background-color: #3742fa;
+    color: white;
+}
+
+.main {
+	padding-top: 3rem;
+}
+
+/* MAIN1 */
+.main1-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.main1 .com-span {
+    background: white;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.main1 .search-span {
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.main1 .input-group {
+    border: 2px solid;
+    border-image: linear-gradient(45deg,#226fff, #7fa8ff) 1;
+}
+
+/* MAIN2 */
+
+.main2 .main2-text {
+    line-height: 1.5rem;
+    letter-spacing: 0.07rem;
+
+}
+
+.main1 .main1-text2 span {
+    letter-spacing: 0.1rem;
+    font-weight: 550;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.main2 .img-row img{
+    background: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 60%;
+}
+
+.main2 button {
+    border-color: #3742fa;
+    color: #3742fa;
+}
+
+.main2 button:hover {
+    background-color: #3742fa;
+    color: white;
+}
+
+/* MAIN3 */
+.main3-section {
+    padding-top: 5rem;
+}
+
+.main3 .card-body span {
+    color: #3742fa;
+    font-weight: 700;
+}
+
+.main3 button {
+    border-color: #3742fa;
+    color: #3742fa;
+}
+
+.main3 button:hover {
+    background-color: #3742fa;
+    color: white;
+}
+
+.main3 .card-title {
+    font-size: 1.7rem;
+}
+
+.main3 .card-body p {
+    font-size: 1.1rem;
+}
+
+
+.main3 .card {
+    border-top: 7px solid;
+    border-image: linear-gradient(45deg, #9B33FE,
+#7fa8ff) 1;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    transition: 1s ease;
+    
+}
+
+.main3 .card:hover {
+    border-top: 7px solid;
+    border-image: linear-gradient(45deg, #9B33FE,
+#7fa8ff) 1;
+box-shadow: 0px 10px 20px -10px #3575ff!important;    
+transform: scale(1.05);
+    transition: 0.5s ease!important;
+    
+}
+
+.hr-css {
+    border-image: linear-gradient(45deg, #7fa8ff,
+    #7fa8ff) 1;
+}
+
+
+/* MAIN4 */
+.main4 {
+    padding-top: 10rem;
+}
+
+.main4 button {
+    border-color: #3742fa;
+    color: #3742fa;
+}
+
+.main4 .main4-text {
+    line-height: 1.5rem;
+    letter-spacing: 0.07rem;
+}
+
+.main4 button:hover {
+    background-color: #3742fa;
+    color: white;
+}
+
+.main4 p {
+    width: 85%;
+    
+}
+
+.main4 .feature-text {
+    color:#3742fa;
+    font-weight: 700;
+}
+
+/* MAIN5 */
+.main5-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.main5 .card {
+    border: 1px solid;
+    border-image: linear-gradient(45deg, #9B33FE,
+#7fa8ff) 1;
+    padding: 2rem;
+    transition: 0.5s ease;
+}
+
+.main5 .card:hover {
+    transform: scale(1.04);
+    transition: 0.5s ease;
+    box-shadow: 0px 10px 15px -10px #3575ff!important;    
+
+}
+
+.main5 .card-title {
+    font-size: 1.2rem;
+}
+
+.main5 img {
+    width: 40%;
+}
+
+/* MAIN7 */
+
+.main7 .main7-section .bio-img img {
+    width: 40%;
+}
+
+.main7 .fas {
+    color: gold;
+}
+
+.main7 .main7-section .card {
+    border: 1px solid;
+    border-image: linear-gradient(45deg,#0053ee, #7fa8ff) 1;
+}
+
+.main7 {
+    padding-bottom: 10rem;
+}
+
+/* MAIN 6 */
+
+.main6 {
+    background-color: white;
+}
+
+.main6-text img {
+    width: 10%;
+}
+
+.main6 li{
+    list-style-type: none;
+    line-height: 2rem;
+    color: #697598;
+}
+
+.main6 ul {
+    padding: 0;
+}
+
+.main6-section {
+    padding: 3rem;
+}
+
+.main6-box {
+    box-shadow: 0px 10px 20px rgba(57, 56, 61, 0.205);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: 0.5s ease;
+}
+
+.main6-box:hover {
+    box-shadow: 0px 10px 20px -10px #0053ee;
+    transform: scale(1.01);
+    transition: 0.5s ease;
+}
+
+.main6-box1 {
+    box-shadow: 0px 10px 20px rgba(57, 56, 61, 0.205);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: 0.5s ease;
+
+}
+
+.main6-box1:hover {
+    box-shadow: 0px 10px 20px -10px #0053ee;
+    transform: scale(1.01);
+    transition: 0.5s ease;
+}
+
+.main6 p {
+    color: grey;
+}
+
+.main6 .elite {
+    font-weight: bolder;
+}
+
+.main6 h4 {
+    font-size: 1.1rem;
+}
+
+.navbar .server {
+    outline: none;
+
+}
+
+.navbar-toggler {
+    outline: none!important;
+    border: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .main h3 {
+        font-size: 2rem;
+    }
+    
+    .main {
+        padding-top: 5rem;
+    }
+
+    .main3 .main3-card {
+        justify-content: center;
+    }
+
+    .main5 .main5-section .card {
+        padding: 0.5rem;
+    }
+	
+	.navbar-collapse {
+        text-align: center;
+        border-radius: 1rem;
+        transition: 0.5s ease;
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        margin-top: 2rem;
+        border: 2px solid;
+        border-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        box-shadow: 0px 10px 20px -10px #3575ff!important;    
+
+    }
+
+    .navbar .sign-btn {
+        background-color: none;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar .sign-btn {
+        color: white;
+        border-color: white;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+	
+	.navbar .sign-btn:active {
+		border-color: purple;
+		background-color: none;
+		color:white;
+		
+	}
+	.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: 0 0 0 .2rem 
+    rgb(123, 185, 255);
+}
+}
+
+@media (max-width: 1024px) {
+    .main {
+        padding-top: 5rem;
+    }
+
+    .main5 .card {
+        padding: 1rem;
+    }
+
+    .main7 .main7-section .bio-img img {
+        width: 20%;
+    }
+
+    .main6 img {
+        width: 10%;
+    }
+
+    .main6 .main6-section .main6-box1 {
+        display: none;
+    }
+
+    .main6 {
+        text-align: center;
+    }
+
+
+    .main6 p {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+
+
+@media (max-width: 576px) {
+
+    .navbar img {
+        width: 20%;
+    }
+
+    /* MAIN */
+    .main .main-text {
+        text-align: center;
+    }
+
+    .main .main-text h3 {
+        font-size: 2rem;
+    }
+
+    .main {
+        padding-bottom: 5rem;
+        padding-top: 0rem;
+    }
+
+    /* MAIN1 */
+    .main1 .main1-section {
+        padding-top: 3rem;
+    }
+
+    .main1 .main1-section h4 {
+        font-size: 2rem;
+    }
+
+    .main1 .com-span {
+        padding: .375rem .75rem;
+    }
+
+    .main1 .search-span {
+        padding: .375rem .75rem;
+    }
+
+    .main1 .main1-section {
+        padding-bottom: 5rem;
+    }
+
+    .main2 .main2-section h4 {
+        font-size: 2rem;
+    }
+
+    .main2 .main2-section .col-img {
+        text-align: center;
+    }
+
+    .main2 .main2-section .main2-textt {
+        text-align: center;
+    }
+
+    .main2 .img-row img {
+        width: 70%;
+    }
+
+    .main3 .main3-text h4 {
+        font-size: 2rem;
+    }
+
+    .main4 .main4-section .main4-text {
+        text-align: center;
+    }
+
+    .main4 {
+        padding-top: 5rem;
+    }   
+
+    .main4 .main4-section .main4-text h4 {
+        font-size: 2rem;
+    }
+
+    .main4 .main4-section .main4-text p {
+        width: auto;
+    }
+
+    .main5-section {
+        padding-top: 5rem;
+    }
+
+    .main5 .main5-section .main5-text h4 {
+        font-size: 2rem;
+    }
+
+    .main6 .main6-section .about-footer {
+        text-align: center;
+    }
+
+    .main6 .dis-footer {
+        display: none;
+    }
+
+    .main6 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .main6 p {
+        width: 100%;
+    }
+
+    .main7 {
+        padding-bottom: 5rem;
+    }
+
+    .main7 .main7-text h4{
+        font-size: 2rem;
+    }
+
+    .main6 img {
+        width: 40%;
+    }
+
+    .main6 .main6-section .main6-box1 {
+        display: none;
+    }
+
+    .main6 {
+        text-align: center;
+    }
+
+    
+
+}
